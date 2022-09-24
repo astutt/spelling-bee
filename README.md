@@ -1,7 +1,7 @@
 Sreamlit app based on the [NYTimes Spelling Bee](https://www.nytimes.com/puzzles/spelling-bee/) 🐝
 
 
-`streamlit run spelling-bee.py`
+`streamlit run spelling_bee.py`
 
 
 ### resources
