@@ -1,0 +1,19 @@
+Alex Stutt
+24-769 HW1
+
+Code in: spelling-bee/spelling-bee.py
+Also found here: https://github.com/astutt/spelling-bee
+
+*** NOTE ***
+The green answer text at the bottom of the video was there for debugging, it shouldn't be in the real game!!
+************
+
+I made a version of the NYTimes Spelling Bee: https://www.nytimes.com/puzzles/spelling-bee/. I do this puzzle most days on a shared account with my mom and sister and am a huge fan. 
+
+The game gives you seven letters, one of which is the "center letter". You have to come up with all words that are only made up of those letters, and each word must contain the center letter. 
+
+My biggest struggle was dealing with state in Streamlit. To deal with this, I ended up creating a GameState class that stores all important puzzle information, and updates throughout the game. 
+
+First, a list of letters is randomly generated, and then a list of correct words. From there, the user is allowed to guess words, and is given feedback based on whether their word is correct or not. An insult (or compliment) is chosen randomly depending on how they do. Correctly guessed words are displayed on the bottom, along with a progress tracker. This tracker displays one of 5 bee-based rankings depending on how many words you've gotten (egg, larva, pupa, drone, worker). If you guess all the words, you're the Queen Bee. 
+
+There's also a new game, and an "I give up" button. The former generates a new game, the late displays an insult, and the answer key. 

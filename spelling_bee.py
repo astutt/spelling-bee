@@ -167,4 +167,4 @@ elif num_found < 5*split:
     st.write('Ranking: worker 🐝')
 
 # show answers for debugging
-#st.write(state.valid_words)
+# st.write(state.valid_words)
